@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #fcfcfc;
+    float: right;
+    height: 100px;
+    width: 1150px;
+}
+
+
+header div form{
+    margin: 7px 350px 0px 141px;
+}
+
+#inputBuscar{
+    text-align: left;
+    border-radius: 35px;
+    border: 1px solid #dcdbdb;
+    width: 32rem;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+#btnBuscar{
+    border-radius: 35px;
+    border: 1px solid #dcdbdb;
+    padding: 12px 12px;
+    background-color: #fff;
+}
+
+#btnMicrofono{
+    border-radius: 35px;
+    border: 1px solid #dcdbdb;
+    margin-left: 30px;
+    border-radius: 35px;
+    padding: 12px 13px;
+    background-color: #fff;
+}
+
+.otros{
+    position: absolute;
+    top: 7px;
+    right: 30px;
+}
+
+.otros a{
+    margin-left: 15px;
+    padding: 12px 12px;
+    background-color: #fff;
+}
+
+#btnUsuario{
+    border-radius: 35px;
+    border: 1px solid #dcdbdb;
+}
+
+.etiqueta{
+    margin-left: 6px;
+}
+
+.etiqueta button{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 9px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.etiqueta button:hover{
+    background-color: #c6c3c3;
+}
+
+aside{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 216px;
+    height: 615px;
+}
+
+.principal{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#btnMas{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    font-size: 25px;
+    background-color: #fff;
+    border: none; 
+}
+
+.image-button {
+    margin-left: 60px;
+    width: 100px;
+    height: 35px;
+    padding: 0; 
+    border: none; 
+    background-color: transparent; 
+  }
+
+.image-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.secundario, .canales{
+    margin-top: 25px;
+}
+
+.secundario div, .canales div{
+    border-radius: 7px;
+    margin-left: 10px;
+    width: 180px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.secundario div span, .canales div span{
+    background-color: #fff;
+    border: none;
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.secundario div:hover, .canales div:hover{
+    background-color: #f2f2f2;
+    font-weight: bolder;
+}
+
+.secundario div p, .canales div p{
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+.canales h5{
+    margin-left: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
